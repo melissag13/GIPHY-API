@@ -9,7 +9,7 @@
 	margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.8;
+    opacity: 0.95;
     
 }
 
@@ -35,10 +35,11 @@ img {
 	color: black;
 }
 .container {
+	padding: 20px;
 	margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 #grafFont {
 	font-family: streetFont;
@@ -49,8 +50,7 @@ img {
 .giphyBody {
 	
 	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
+    
     
     
 }

@@ -13,10 +13,11 @@ var expression = ["Lauging", "Dancing", "Excited", "Falling", "Frustrated"];
 function displayButtons (){
     $("#btnSelect").empty();
 	for (var i=0; i < expression.length; i++){
-		var giphyButton = $("<button>");
-			giphyButton.addClass("action");
-			giphyButton.addClass("btn btn-info");
-			giphyButton.attr("data-name", expression[i]);
+		var giphyButton = $("<button>").addClass("action")
+			                           .addClass("btn btn-info")
+                                       .text(expression[i])
+			                           .attr("data-name", expression[i]);
+            
 			$("#btnSelect").append(giphyButton);
 	}
 }
