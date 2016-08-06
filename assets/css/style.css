@@ -1,0 +1,64 @@
+@font-face {
+    font-family: streetFont;
+    src: url("street_font.otf");
+}
+	
+
+.express {
+	text-align: center;
+	margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    
+}
+
+body {
+	background: url("../images/graffiti-backgrounds.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+img {
+	background-color: white;
+	height: 150px;
+	width: 150px;
+}
+.giphyDiv {
+	float: left;
+	margin: 3px;
+}
+.btn {
+	padding: 25px;
+	margin: 5px;
+	color: black;
+}
+.container {
+	margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+#grafFont {
+	font-family: streetFont;
+	font-size: 100px;
+
+}
+
+.giphyBody {
+	
+	margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    
+    
+}
+
+h2 {
+	font-size: 250px;
+}
+
+/*.form-inline {
+	float: right;
+}*/
