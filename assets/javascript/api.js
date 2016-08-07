@@ -50,7 +50,7 @@ function displayGiphy(){
         $(".giphyBody").empty(); // erases from the previous click
         var results = response.data; 
         if (results == ""){
-          alert("There isn't a gif for this selected button");
+          alert("Giphy not found");
         }
         for (var i=0; i<results.length; i++){
 
