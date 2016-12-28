@@ -1,6 +1,6 @@
 # GIPHY-API
 
-![alt tag](https://github.com/melissag13/GIPHY-API/blob/master/assets/images/Screen%20Shot%202016-12-28%20at%205.53.33%20PM.png)
+![alt tag](https://github.com/melissag13/GIPHY-API/blob/master/assets/images/Screen%20Shot%202016-12-28%20at%206.51.42%20PM.png)
 
 ###Objectives
 * Use the GIPHY API to make a dynamic web page that populates with gifs of your choice
