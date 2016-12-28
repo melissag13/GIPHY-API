@@ -2,17 +2,11 @@
     font-family: streetFont;
     src: url("street_font.otf");
 }
-	
-
 .express {
 	text-align: center;
 	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.95;
-    
+        
 }
-
 body {
 	background: url("../images/graffiti-backgrounds.jpg");
 	-webkit-background-size: cover;
@@ -34,31 +28,43 @@ img {
 	margin: 5px;
 	color: black;
 }
+#btnSelect {
+
+}
 .container {
 	padding: 20px;
 	margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.95;
+
 }
 #grafFont {
 	font-family: streetFont;
 	font-size: 100px;
+	color: white;
 
 }
 
 .giphyBody {
 	
 	margin: 30px;
-    
-    
-    
+        
 }
-
+.input-group {
+	padding: 20px;
+	margin: 30px;
+}
 h2 {
 	font-size: 250px;
 }
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black !important;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: black !important;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: black !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: black !important;
+}
 
-/*.form-inline {
-	float: right;
-}*/
